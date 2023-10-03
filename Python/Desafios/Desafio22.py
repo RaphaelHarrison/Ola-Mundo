@@ -1,0 +1,6 @@
+nome = input('Digite uma palavra:').strip()
+print('Maisculo:', nome.upper())
+print('Minusculo', nome.lower())
+print('Quantidade de letras:', nome.strip(),len(nome))
+pn = nome.split()
+print(f'A primeira palavra ({pn}) tem {len(pn[0])}')
